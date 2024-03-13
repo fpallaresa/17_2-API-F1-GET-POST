@@ -7,7 +7,11 @@
     "start": "npm run sample",
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepare": "husky install",
-    "sample": "nodemon ./src/sample.js"
+    "lint": "eslint src",
+    "sample": "nodemon ./src/sample.js",
+    "scripts": {
+      "lint": "eslint ."
+    }
   },
   "repository": {
     "type": "git",
