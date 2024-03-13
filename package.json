@@ -1,0 +1,37 @@
+{
+  "name": "17_2-api-f1-get-post",
+  "version": "1.0.0",
+  "description": "API exercise with node",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run sample",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install",
+    "sample": "nodemon ./src/sample.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:fpallaresa/17_2-API-F1-GET-POST.git"
+  },
+  "keywords": [
+    "f1"
+  ],
+  "author": "francesc pallares",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fpallaresa/17_2-API-F1-GET-POST/issues"
+  },
+  "homepage": "https://github.com/fpallaresa/17_2-API-F1-GET-POST#readme",
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-n": "^16.6.2",
+    "eslint-plugin-promise": "^6.1.1",
+    "husky": "^8.0.0",
+    "nodemon": "^3.1.0"
+  },
+  "dependencies": {
+    "express": "^4.18.3"
+  }
+}
