@@ -4,11 +4,11 @@
   "description": "API exercise with node",
   "main": "index.js",
   "scripts": {
-    "start": "npm run sample",
+    "start": "npm run index",
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepare": "husky install",
     "lint": "eslint src",
-    "sample": "nodemon ./src/sample.js",
+    "index": "nodemon ./src/index.js",
     "scripts": {
       "lint": "eslint ."
     }
